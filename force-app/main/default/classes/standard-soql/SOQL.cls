@@ -2946,8 +2946,7 @@ global virtual inherited sharing class SOQL implements Queryable {
 		}
 
 		public Database.PaginationCursor toPaginationCursor(String query, Map<String, Object> binding, AccessLevel accessLevel) {
-			return Database.getPaginationCursorWithBinds(query, binding, accessLevel);
-		}
+			return Database.getPaginationCursorWithBinds(query, binding, accessLevel);		}
 	}
 
 	public inherited sharing class Converter {
